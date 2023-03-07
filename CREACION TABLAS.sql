@@ -66,3 +66,13 @@ PRIMARY KEY (index_txt),
 CONSTRAINT `fk_tablasql_tablatxt` 
 FOREIGN KEY (index_sql)
 REFERENCES tablasql (index_sql));
+
+USE proyecto1_equipo1;
+
+RENAME TABLE tablasql TO data_sql;
+
+RENAME TABLE tablatxt TO data_txt;
+
+RENAME TABLE tablaxml TO data_xml;
+
+
