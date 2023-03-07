@@ -74,5 +74,3 @@ RENAME TABLE tablasql TO data_sql;
 RENAME TABLE tablatxt TO data_txt;
 
 RENAME TABLE tablaxml TO data_xml;
-
-
