@@ -1,3 +1,5 @@
+CREATE SCHEMA SGA
+
 USE proyecto1_equipo1;
 
 CREATE TABLE tablasql(
