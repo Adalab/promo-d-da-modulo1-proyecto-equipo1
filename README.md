@@ -12,3 +12,5 @@ Donde encontrareis los métodos de apertura y limpieza de datos.
  automatización para txt
  creación de tablas
 Inserción de los datos en las tablas 
+
+ creación de tablas SQL para la inserción de los archivos txt, xml, sql.
