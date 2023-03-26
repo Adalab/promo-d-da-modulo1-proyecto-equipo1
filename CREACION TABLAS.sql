@@ -1,6 +1,6 @@
-CREATE SCHEMA SGA
+CREATE SCHEMA SGA;
 
-USE proyecto1_equipo1;
+USE SGA;
 
 CREATE TABLE tablasql(
 index_sql INT NOT NULL AUTO_INCREMENT,
@@ -69,7 +69,7 @@ CONSTRAINT `fk_tablasql_tablatxt`
 FOREIGN KEY (index_sql)
 REFERENCES tablasql (index_sql));
 
-USE proyecto1_equipo1;
+USE SGA;
 
 RENAME TABLE tablasql TO data_sql;
 

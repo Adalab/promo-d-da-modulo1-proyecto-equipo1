@@ -1,4 +1,4 @@
-USE proyecto1_equipo1;
+USE SGA;
 
 UPDATE data_sql 
 SET q10_part_1 = NULL 
