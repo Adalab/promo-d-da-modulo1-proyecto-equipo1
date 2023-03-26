@@ -11,3 +11,4 @@ Donde encontrareis los métodos de apertura y limpieza de datos.
  automatización para xml
  automatización para txt
  creación de tablas
+Inserción de los datos en las tablas 
