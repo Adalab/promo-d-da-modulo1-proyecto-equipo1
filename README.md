@@ -1,16 +1,14 @@
 # promo-d-da-modulo1-proyecto-equipo1
-Este repositorio contiene el trabajo del grupo de alumnas de la promoción con nombre Usefull data. 
+Este repositorio contiene el primer proyecto del grupo de alumnas de la promoción "Dorothy" de DA.
 
-Contiene 7 archivos donde estan divididas las faces del proceso de trabajo den ellos realizado.
+Para este supuesto somos la empresa Useful data. 
 
- procesamiento de archivo txt
- procesamiento de archivo xml
- modificación de datos SQL
-Donde encontrareis los métodos de apertura y limpieza de datos.
+El proyecto engloba una serie de tareas que vienen definidas por cinco historias de usuario. Fundalmente el trabajo requiere la creación de una base de datos, el procesamiento y limpieza de los archivos recibidos para prepararlos para su inserción y la creación de métodos para la limpieza y procesamientos en el futuro. 
 
- automatización para xml
- automatización para txt
- creación de tablas
-Inserción de los datos en las tablas 
+Se reciben los datos del cliente y se revisan. Se generan a BBDD y las tablas requerias de manera inicial en SQL. 
 
- creación de tablas SQL para la inserción de los archivos txt, xml, sql.
+Se realiza el filtrado requerido para cada fichero de datos, cambios, errores, para procesar los datos y poder hacer uso de ellos. 
+
+Para la automatización, después de un pequeño análisis se decide crear dos clases, para lo que se utiliza Python. Las dos clases son una para gestión de ficheros .txt y otra para ficheros .xml. Las clases reciben en el constructor,  la ruta y el nombre de fichero.
+En las clases se han definido una serie de funciones: apertura fichero, limpieza fichero, inserción de datos y cierre.
+No se ha incluido la creación de BBDD y tablas al haberla realizado anteriormente en SQL. 
